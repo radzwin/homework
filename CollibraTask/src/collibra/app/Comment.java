@@ -49,6 +49,7 @@ public class Comment {
 	}
 	
 	public String toString() {
-		return "postId: " + postId + ", id: " + id + ", name: \"" + name + "\", email: \"" + email + "\", body: \"" + body + "\"";
+		return "postId: " + postId + ", id: " + id + ", name: \"" + name 
+				+ "\", email: \"" + email + "\", body: \"" + body + "\"";
 	}
 }
